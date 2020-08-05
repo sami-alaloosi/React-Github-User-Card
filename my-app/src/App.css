@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* new */
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+ 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.green {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.green:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.grid{
+  /* border: #61dafb solid 2px; */
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+.followeDiv{
+  /* border: springgreen 2px solid; */
+  display: flex;
+  justify-content: center;
+}
+.followers{
+  /* border: red 2px solid; */
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 2rem 0;
+}
+
+.grid2{
+  /* border: #61dafb solid 2px; */
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.grid2 img {
+  width: 100%;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+.container {
+  
+  padding: 1rem;
+  width: 72%;
+  box-shadow: 2px 4px 10px slategrey;
+  
 }
